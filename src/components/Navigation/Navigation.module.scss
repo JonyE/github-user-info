@@ -1,0 +1,9 @@
+@import "../../styles/variables";
+
+.container {
+  display: inline-block;
+  @include media('<=phone') {
+    background-color: aqua;
+  }
+  background-color: burlywood;
+}
